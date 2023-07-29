@@ -37,6 +37,7 @@ h4 {
 }
 p {
   color: white;
+  white-space: nowrap;
 }
 .para {
   display: flex;

@@ -1,0 +1,125 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* This hides horizontal scroll bars */
+}
+
+.avatardiv {
+  width: 150%;
+  max-width: 350px;
+  background-color: #000f3f;
+  height: 10px;
+  border-radius: 5px;
+  padding: 70px;
+  margin: 15% auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: -18px auto;
+}
+.checkcontainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: -32px;
+}
+h4 {
+  color: white;
+  font-weight: bolder;
+  margin-top: -50px;
+  font-size: 19px;
+}
+p {
+  color: white;
+}
+.para {
+  display: flex;
+  flex-direction: column;
+}
+.container input[type="text"] {
+  flex: 1;
+  width: 100px;
+  height: 30px;
+  margin-top: -30px;
+  background-color: #23395d;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px black;
+}
+
+.container button {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #1357be;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 4px black;
+  border: 1px solid black;
+  transition: background-color 0.5s ease;
+}
+.container button:hover {
+  background-color: #0d3aa9;
+}
+@media (max-width: 600px) {
+  .avatardiv {
+    width: 100%; /* Set the width to 100% for full width on mobile */
+    max-width: fit-content;
+    height: 85px;
+    padding: 30px; /* Adjust the padding for smaller screens */
+    margin: 50% auto; /* Adjust the margin for smaller screens */
+  }
+  /* .container {
+    flex-direction: column;
+    align-items: center;
+  } */
+  .container input[type="text"] {
+    flex: 1;
+    width: 100px;
+    height: 23px;
+    margin-top: -30px;
+    background-color: #23395d;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px black;
+  }
+  h4 {
+    color: white;
+    font-weight: bolder;
+    margin-top: -20px;
+    font-size: 19px;
+  }
+  .checkcontainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -45px;
+  }
+  .container button {
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #1357be;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    margin-top: 22px;
+    box-shadow: 0 2px 4px black;
+    border: 1px solid black;
+    transition: background-color 0.5s ease;
+  }
+}

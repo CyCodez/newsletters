@@ -75,7 +75,7 @@ p {
   .avatardiv {
     width: 100%; /* Set the width to 100% for full width on mobile */
     max-width: fit-content;
-    height: 85px;
+    height: 100px;
     padding: 30px; /* Adjust the padding for smaller screens */
     margin: 50% auto; /* Adjust the margin for smaller screens */
   }
@@ -106,7 +106,8 @@ p {
     gap: 10px;
     align-items: center;
     margin: 0 auto;
-    margin-top: -45px;
+    /* margin-top: -75px;
+    margin-bottom: 70px; */
   }
   .container button {
     width: 100px;

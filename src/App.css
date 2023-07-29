@@ -10,7 +10,7 @@ body {
   width: 150%;
   max-width: 550px;
   background-color: #000f3f;
-  height: 10px;
+  height: 14px;
   border-radius: 5px;
   padding: 70px;
   margin: 15% auto;
@@ -27,7 +27,7 @@ body {
   gap: 10px;
   align-items: center;
   margin: 0 auto;
-  margin-top: -32px;
+  margin-top: -40px;
 }
 h4 {
   color: white;
@@ -51,8 +51,11 @@ p {
   color: white;
   padding: 10px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   box-shadow: 0 2px 4px black;
+}
+input[type="checkbox"] {
+  margin-top: 8px;
 }
 
 .container button {
@@ -62,8 +65,8 @@ p {
   color: white;
   font-weight: bold;
   background-color: #1357be;
-  border-radius: 4px;
-  margin-bottom: 32px;
+  border-radius: 5px;
+  margin-bottom: 30px;
   box-shadow: 0 2px 4px black;
   border: 1px solid black;
   transition: background-color 0.5s ease;
@@ -89,7 +92,7 @@ p {
     color: white;
     padding: 7px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     box-shadow: 0 2px 4px black;
   }
   h4 {
@@ -103,7 +106,7 @@ p {
     gap: 10px;
     align-items: center;
     margin: 0 auto;
-    margin-top: -45px;
+    margin-top: -42px;
   }
   .container button {
     width: 100px;
@@ -112,7 +115,7 @@ p {
     color: white;
     font-weight: bold;
     background-color: #1357be;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-bottom: 50px;
     margin-top: 22px;
     box-shadow: 0 2px 4px black;

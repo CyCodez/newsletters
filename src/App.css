@@ -85,7 +85,7 @@ input[type="checkbox"] {
 
   .container input[type="text"] {
     flex: 1;
-    width: 100px;
+    width: 200px;
     height: 23px;
     margin-top: -30px;
     background-color: #23395d;

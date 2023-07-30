@@ -108,9 +108,9 @@ input[type="checkbox"] {
     margin: 0 auto;
     margin-top: -42px;
   }
-  .checkcontainer p {
-    margin-bottom: 25px;
-  }
+  /* .checkcontainer p {
+    margin-bottom: 15px;
+  } */
   .container button {
     width: 100px;
     height: 35px;
